@@ -1,0 +1,113 @@
+.sidebar{
+  border-right: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.02);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.brandRow{
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 10px 10px 6px;
+}
+
+.brandMark{
+  width: 44px;
+  height: 44px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(120,120,255,0.9), rgba(70,200,255,0.85));
+  box-shadow: 0 20px 40px rgba(0,0,0,0.35);
+}
+
+.brandName{ font-weight: 800; letter-spacing: 0.4px; }
+.brandHint{ font-size: 12px; color: rgba(255,255,255,0.65); margin-top: 2px; }
+
+.searchWrap{ padding: 0 8px; }
+.search{
+  width: 100%;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.05);
+  color: rgba(255,255,255,0.92);
+  padding: 12px 12px;
+  border-radius: 14px;
+  outline: none;
+}
+.search:focus{
+  border-color: rgba(120,120,255,0.55);
+  box-shadow: 0 0 0 4px rgba(120,120,255,0.12);
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: auto;
+  padding: 6px 4px 8px;
+}
+
+.chatItem{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 48px 1fr auto;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.03);
+  cursor: pointer;
+  transition: transform 0.12s ease, background 0.12s ease, border 0.12s ease;
+  text-align: left;
+}
+.chatItem:hover{
+  transform: translateY(-1px);
+  background: rgba(255,255,255,0.05);
+  border-color: rgba(255,255,255,0.14);
+}
+.active{
+  background: rgba(120,120,255,0.10);
+  border-color: rgba(120,120,255,0.35);
+}
+
+.chatMeta{ min-width: 0; }
+.chatTop{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.chatName{
+  font-weight: 750;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.chatLast{
+  margin-top: 4px;
+  font-size: 13px;
+  color: rgba(255,255,255,0.62);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.unread{
+  min-width: 26px;
+  height: 24px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  font-size: 12px;
+  font-weight: 800;
+  background: rgba(70,200,255,0.20);
+  border: 1px solid rgba(70,200,255,0.35);
+}
+
+.empty{
+  padding: 18px 10px;
+  color: rgba(255,255,255,0.62);
+  text-align: center;
+}
