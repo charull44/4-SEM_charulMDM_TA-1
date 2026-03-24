@@ -55,34 +55,6 @@ chat-spa/
 
 ---
 
-## ⚙️ Installation & Setup
-
-1. Clone the repository
-
-```
-git clone https://github.com/your-username/chat-spa.git
-```
-
-2. Open project folder
-
-```
-cd chat-spa
-```
-
-3. Install dependencies
-
-```
-npm install
-```
-
-4. Run project
-
-```
-npm run dev
-```
-
----
-
 ## 🌐 Deployment
 
 This project is deployed using **Vercel**.
@@ -92,12 +64,6 @@ To deploy:
 1. Upload project to GitHub
 2. Connect GitHub to Vercel
 3. Click **Deploy**
-
----
-
-## 📸 Screenshots
-
-(Add your screenshots here)
 
 ---
 
@@ -112,7 +78,7 @@ To deploy:
 
 ---
 
-## 🙌 Author
+##  Author
 
 **Charul Bhanarkar**
 
