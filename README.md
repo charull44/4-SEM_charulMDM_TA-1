@@ -1,4 +1,4 @@
-💬 React Chat UI – Messenger Style Interface
+## 💬 React Chat UI – Messenger Style Interface
 
 A modern chat application user interface built using React, JSX, HTML, and CSS.
 The project replicates the layout of a messaging app with:
@@ -9,13 +9,17 @@ The project replicates the layout of a messaging app with:
 
 This project focuses on frontend design and React component structure.
 
-🚀 Live Demo
-Deployed using Vercel
+---
 
-🔗 Live Website
+## 🚀 Live Demo
+
+Deployed using Vercel
 https://4-sem-charul-mdm-ta-1.vercel.app
 
-✨ Features
+---
+
+## ✨ Features
+
 ✔ Chat sidebar with contact list
 ✔ Chat screen for conversations
 ✔ Message bubbles (sender & receiver)
@@ -25,7 +29,10 @@ https://4-sem-charul-mdm-ta-1.vercel.app
 ✔ Responsive design structure
 ✔ Component-based React architecture
 
-🛠️ Tech Stack
+---
+
+## 🛠️ Tech Stack
+
 Technology	Purpose
 -- React	  UI framework
 -- JSX	    Component rendering
@@ -33,7 +40,10 @@ Technology	Purpose
 -- CSS3	    Styling
 -- Vite	    Development build tool
 
-📂 Project Structure
+---
+
+## 📂 Project Structure
+
 chat-spa
 │
 ├── src
@@ -52,7 +62,10 @@ chat-spa
 ├── vite.config.js
 └── README.md
 
-🔮 Future Improvements
+---
+
+## 🔮 Future Improvements
+
 Planned enhancements:
 Real-time messaging
 Firebase backend integration
@@ -63,5 +76,7 @@ Online/offline user status
 Mobile responsive improvements
 Convert to Android app
 
-Author
+---
+
+## Author
 Charul Bhanarkar
